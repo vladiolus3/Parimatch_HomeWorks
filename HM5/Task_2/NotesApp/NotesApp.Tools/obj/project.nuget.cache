@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xp+Gs/nXhidv5G2QElaipbziTPj23jcAkEZbhQtA305vbp8EDaGnW4zyTU3SawswAcLPQWjKKBFmDBtIqthDrA==",
+  "success": true,
+  "projectFilePath": "D:\\Всякое\\Parimatch\\HM5\\Task_2\\NotesApp\\NotesApp.Tools\\NotesApp.Tools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clash\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\clash\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

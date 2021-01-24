@@ -1,0 +1,1 @@
+create database dovhal_notes;
