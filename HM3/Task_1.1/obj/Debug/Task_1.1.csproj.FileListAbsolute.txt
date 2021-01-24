@@ -1,0 +1,6 @@
+D:\Всякое\Parimatch\HM3\Task_1.1\bin\Debug\Task_1.1.exe.config
+D:\Всякое\Parimatch\HM3\Task_1.1\bin\Debug\Task_1.1.exe
+D:\Всякое\Parimatch\HM3\Task_1.1\bin\Debug\Task_1.1.pdb
+D:\Всякое\Parimatch\HM3\Task_1.1\obj\Debug\Task_1.1.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM3\Task_1.1\obj\Debug\Task_1.1.exe
+D:\Всякое\Parimatch\HM3\Task_1.1\obj\Debug\Task_1.1.pdb

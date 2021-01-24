@@ -1,0 +1,11 @@
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Task_1.4.exe.config
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Task_1.4.exe
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Task_1.4.pdb
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Library.exe
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Library.pdb
+D:\Всякое\Parimatch\HM2\Task_1.4\bin\Debug\Library.exe.config
+D:\Всякое\Parimatch\HM2\Task_1.4\obj\Debug\Task_1.4.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM2\Task_1.4\obj\Debug\Task_1.4.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM2\Task_1.4\obj\Debug\Task_1.4.csproj.CopyComplete
+D:\Всякое\Parimatch\HM2\Task_1.4\obj\Debug\Task_1.4.exe
+D:\Всякое\Parimatch\HM2\Task_1.4\obj\Debug\Task_1.4.pdb

@@ -1,0 +1,7 @@
+D:\Всякое\Parimatch\HM2\Library\bin\Release\Library.exe.config
+D:\Всякое\Parimatch\HM2\Library\bin\Release\Library.exe
+D:\Всякое\Parimatch\HM2\Library\bin\Release\Library.pdb
+D:\Всякое\Parimatch\HM2\Library\obj\Release\Library.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM2\Library\obj\Release\Library.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM2\Library\obj\Release\Library.exe
+D:\Всякое\Parimatch\HM2\Library\obj\Release\Library.pdb

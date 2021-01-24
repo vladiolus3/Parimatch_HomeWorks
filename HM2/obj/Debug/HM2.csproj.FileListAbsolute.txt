@@ -1,0 +1,2 @@
+D:\Всякое\Parimatch\HM2\obj\Debug\HM2.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM2\obj\Debug\HM2.csproj.CoreCompileInputs.cache

@@ -1,0 +1,7 @@
+D:\Всякое\Parimatch\HM3\Task_1.4\bin\Debug\Task_1.4.exe.config
+D:\Всякое\Parimatch\HM3\Task_1.4\bin\Debug\Task_1.4.exe
+D:\Всякое\Parimatch\HM3\Task_1.4\bin\Debug\Task_1.4.pdb
+D:\Всякое\Parimatch\HM3\Task_1.4\obj\Debug\Task_1.4.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM3\Task_1.4\obj\Debug\Task_1.4.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM3\Task_1.4\obj\Debug\Task_1.4.exe
+D:\Всякое\Parimatch\HM3\Task_1.4\obj\Debug\Task_1.4.pdb

@@ -1,0 +1,11 @@
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Task_1.3.exe.config
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Task_1.3.exe
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Task_1.3.pdb
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Library.exe
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Library.pdb
+D:\Всякое\Parimatch\HM2\Task_1.3\bin\Release\Library.exe.config
+D:\Всякое\Parimatch\HM2\Task_1.3\obj\Release\Task_1.3.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM2\Task_1.3\obj\Release\Task_1.3.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM2\Task_1.3\obj\Release\Task_1.3.csproj.CopyComplete
+D:\Всякое\Parimatch\HM2\Task_1.3\obj\Release\Task_1.3.exe
+D:\Всякое\Parimatch\HM2\Task_1.3\obj\Release\Task_1.3.pdb

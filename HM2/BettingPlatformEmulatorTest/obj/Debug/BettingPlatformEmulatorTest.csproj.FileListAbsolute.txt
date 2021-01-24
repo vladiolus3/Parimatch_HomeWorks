@@ -1,0 +1,11 @@
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\BettingPlatformEmulatorTest.exe
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\Library.exe
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\Library.pdb
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\Library.exe.config
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\obj\Debug\BettingPlatformEmulatorTest.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\obj\Debug\BettingPlatformEmulatorTest.exe
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\obj\Debug\BettingPlatformEmulatorTest.pdb
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\BettingPlatformEmulatorTest.exe.config
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\bin\Debug\BettingPlatformEmulatorTest.pdb
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\obj\Debug\BettingPlatformEmulatorTest.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM2\BettingPlatformEmulatorTest\obj\Debug\BettingPlatformEmulatorTest.csproj.CopyComplete
