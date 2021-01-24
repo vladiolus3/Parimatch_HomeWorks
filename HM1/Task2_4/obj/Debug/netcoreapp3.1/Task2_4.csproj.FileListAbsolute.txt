@@ -1,0 +1,13 @@
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.exe
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.deps.json
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.runtimeconfig.json
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.runtimeconfig.dev.json
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.dll
+D:\Всякое\Parimatch\HM1\Task2_4\bin\Debug\netcoreapp3.1\Task2_4.pdb
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.AssemblyInfoInputs.cache
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.AssemblyInfo.cs
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.dll
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.pdb
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.genruntimeconfig.cache
+D:\Всякое\Parimatch\HM1\Task2_4\obj\Debug\netcoreapp3.1\Task2_4.csprojAssemblyReference.cache
