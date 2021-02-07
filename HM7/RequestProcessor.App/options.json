@@ -1,0 +1,18 @@
+﻿[
+  {
+    "name": "NBU Rates (JSON)",
+    "address": "http://jsonplaceholder.typicode.com/posts",
+    "method": "POST",
+    "contentType": "string",
+    "body": "xyu",
+  "path":"nbu_rates.json"
+  },
+  {
+    "name": "         ",
+    "address": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?xml",
+    "method": "GET",
+    "contentType": null,
+    "body": null,
+    "path": "nbu_rates.xml"
+  }
+]
