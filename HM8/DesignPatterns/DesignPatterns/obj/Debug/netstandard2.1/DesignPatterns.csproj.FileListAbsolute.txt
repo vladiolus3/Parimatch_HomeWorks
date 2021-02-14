@@ -1,0 +1,9 @@
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.csprojAssemblyReference.cache
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.AssemblyInfoInputs.cache
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.AssemblyInfo.cs
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\bin\Debug\netstandard2.1\DesignPatterns.deps.json
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\bin\Debug\netstandard2.1\DesignPatterns.dll
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\bin\Debug\netstandard2.1\DesignPatterns.pdb
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.dll
+D:\Всякое\Parimatch\HM8\DesignPatterns\DesignPatterns\obj\Debug\netstandard2.1\DesignPatterns.pdb
