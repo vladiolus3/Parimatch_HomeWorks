@@ -44,9 +44,8 @@ namespace DesignPatterns.IoC.IocSolution
             );
 
             entity.SetParams(list);
-            entity.GetInstance();
-
-            return (T)entity.GetConstructor();
+            
+            return (T)entity.GetInstance();
         }
     }
 }

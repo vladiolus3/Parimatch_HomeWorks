@@ -5,8 +5,6 @@ namespace DesignPatterns.IoC.IocSolution
 {
     public class Transient<T> : IEntity
     {
-        private static Transient<T> _instance;
-
         private static object _objectType;
 
         private static List<Type> _types = null;
@@ -17,15 +15,12 @@ namespace DesignPatterns.IoC.IocSolution
         {
         }
 
-        public IEntity GetInstance()
+        public object GetInstance()
         {
-            _instance = new Transient<T>();
             _objectType = Helper.GenerateConstructor<T>(_types);
 
-            return _instance;
+            return _objectType;
         }
-
-        public object GetConstructor() => _objectType;
 
         public void SetParams(List<Type> types) => _types = types;
 
