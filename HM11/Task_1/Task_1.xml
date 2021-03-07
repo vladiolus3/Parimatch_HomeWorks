@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task_1</name>
+    </assembly>
+    <members>
+        <member name="T:Task_1.Clients.IRatesProviderClient">
+            <summary>
+            Abstract currency rates provider interface.
+            </summary>
+        </member>
+        <member name="M:Task_1.Clients.IRatesProviderClient.GetRatesAsync">
+            <summary>
+            Requests rates from  currency rates provider.
+            </summary>
+            <returns>Returns currency rates.</returns>
+        </member>
+        <member name="T:Task_1.Clients.NbuClient">
+            <summary>
+            NBU currency rates provider.
+            For more details, please visit
+            https://bank.gov.ua/ua/open-data/api-dev
+            </summary>
+        </member>
+        <member name="M:Task_1.Clients.NbuClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Task_1.Options.NbuClientOptions})">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Task_1.Clients.NbuClient.GetRatesAsync">
+            <inheritdoc/>
+        </member>
+        <member name="T:Task_1.Contracts.NbuRate">
+            <summary>
+            NBU provider native data model for currency rate.
+            </summary>
+        </member>
+        <member name="P:Task_1.Contracts.NbuRate.Rate">
+            <summary>
+            Currency rate related to base currency (UAH).
+            </summary>
+        </member>
+        <member name="P:Task_1.Contracts.NbuRate.Currency">
+            <summary>
+            Currency code.
+            </summary>
+        </member>
+        <member name="T:Task_1.Controllers.AuthController">
+            <summary>
+            Authorization controller for user registration  
+            </summary>
+        </member>
+        <member name="M:Task_1.Controllers.AuthController.Register(Task_1.Models.AuthPair)">
+            <summary>
+            Async method for registration of user
+            </summary>
+            <param name="pair"></param>
+        </member>
+        <member name="T:Task_1.Controllers.RatesController">
+            <summary>
+            Rates Controller for sending requests to get result of exchange 
+            </summary>
+        </member>
+        <member name="M:Task_1.Controllers.RatesController.Get(System.String,System.String,System.Nullable{System.Decimal})">
+            <summary>
+            Method for for sending requests to get result of exchange without body
+            </summary>
+            <param name="srcCurrency"></param>
+            <param name="dstCurrency"></param>
+            <param name="amount"></param>
+            <returns>decimal</returns>
+        </member>
+        <member name="T:Task_1.Models.AuthPair">
+            <summary>
+            Pair of login and password for authorization 
+            </summary>
+        </member>
+        <member name="T:Task_1.Models.CurrencyRate">
+            <summary>
+            Currency rate model.
+            </summary>
+        </member>
+        <member name="P:Task_1.Models.CurrencyRate.Currency">
+            <summary>
+            Currency code (ISO).
+            </summary>
+        </member>
+        <member name="P:Task_1.Models.CurrencyRate.Rate">
+            <summary>
+            Currency rate related to base currency.
+            </summary>
+        </member>
+        <member name="T:Task_1.Models.ExchangeResult">
+            <summary>
+            Exchange operation result.
+            </summary>
+        </member>
+        <member name="P:Task_1.Models.ExchangeResult.Rate">
+            <summary>
+            Exchange rate.
+            </summary>
+        </member>
+        <member name="P:Task_1.Models.ExchangeResult.SourceAmount">
+            <summary>
+            Amount in source currency.
+            </summary>
+        </member>
+        <member name="P:Task_1.Models.ExchangeResult.DestinationAmount">
+            <summary>
+            Amount in destination currency.
+            </summary>
+        </member>
+        <member name="M:Task_1.Models.ExchangeResult.#ctor(System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="rate">Set <see cref="P:Task_1.Models.ExchangeResult.Rate"/> value.</param>
+            <param name="srcAmount">Set <see cref="P:Task_1.Models.ExchangeResult.SourceAmount"/> value.</param>
+            <param name="destAmount">Set <see cref="P:Task_1.Models.ExchangeResult.DestinationAmount"/> value.</param>
+        </member>
+        <member name="T:Task_1.Options.CacheOptions">
+            <summary>
+            Caching options.
+            </summary>
+        </member>
+        <member name="P:Task_1.Options.CacheOptions.RatesCacheLifeTime">
+            <summary>
+            Default rates cache lifetime.
+            </summary>
+        </member>
+        <member name="T:Task_1.Options.NbuClientOptions">
+            <summary>
+            Option for getting from NbuClient
+            </summary>
+        </member>
+        <member name="P:Task_1.Options.NbuClientOptions.BaseAddress">
+            <summary>
+            Base address for HttpClient
+            </summary>
+        </member>
+        <member name="P:Task_1.Options.NbuClientOptions.IsValid">
+            <summary>
+            Checking is Base Address empty or not
+            </summary>
+        </member>
+        <member name="T:Task_1.Options.RatesOptions">
+            <summary>
+            Option for getting rate
+            </summary>
+        </member>
+        <member name="P:Task_1.Options.RatesOptions.BaseCurrency">
+            <summary>
+            Base currency
+            </summary>
+        </member>
+        <member name="P:Task_1.Options.RatesOptions.IsValid">
+            <summary>
+            Checking is BaseCurrency empty or not
+            </summary>
+        </member>
+        <member name="T:Task_1.Services.CacheHostedService">
+            <summary>
+            Service for using of IRatesService
+            </summary>
+        </member>
+        <member name="M:Task_1.Services.CacheHostedService.StartAsync(System.Threading.CancellationToken)">
+            <summary>
+            Create Timer with ActualizeCache
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_1.Services.CacheHostedService.StopAsync(System.Threading.CancellationToken)">
+            <summary>
+            Stop Timer from StartAsync
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Task_1.Services.IRatesService">
+            <summary>
+            Currency rates service.
+            </summary>
+        </member>
+        <member name="M:Task_1.Services.IRatesService.ExchangeAsync(System.String,System.String,System.Decimal)">
+            <summary>
+            Exchanges given amount from source currency to destination currency.
+            </summary>
+            <param name="srcCurrency">Source currency</param>
+            <param name="destCurrency">Destination currency</param>
+            <param name="amount">Amount of funds.</param>
+            <returns>Returns exchange result or <c>null</c> if source or destination currency wasn't found.</returns>
+        </member>
+        <member name="M:Task_1.Services.IRatesService.ActualizeRatesAsync">
+            <summary>
+            Actualize rates.
+            Kind of abstraction leak.
+            </summary>
+            <returns>Returns awaiter</returns>
+        </member>
+        <member name="T:Task_1.Services.ObtainBodyService">
+            <summary>
+            Static class for obtain body from requests and responses
+            </summary>
+        </member>
+        <member name="M:Task_1.Services.ObtainBodyService.ObtainRequestBody(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            Method to obtain request`s body
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_1.Services.ObtainBodyService.ObtainResponseBody(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Method to obtain response`s body
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Task_1.Services.RatesService">
+            <summary>
+            Class for getting of result of exchange 
+            </summary>
+        </member>
+        <member name="M:Task_1.Services.RatesService.#ctor(Task_1.Clients.IRatesProviderClient,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.Extensions.Options.IOptions{Task_1.Options.RatesOptions},Microsoft.Extensions.Options.IOptions{Task_1.Options.CacheOptions})">
+            <summary>
+            RatesService constructor
+            </summary>
+            <param name="client"></param>
+            <param name="cache"></param>
+            <param name="ratesOptions"></param>
+            <param name="cacheOptions"></param>
+        </member>
+        <member name="M:Task_1.Services.RatesService.ExchangeAsync(System.String,System.String,System.Decimal)">
+            <summary>
+            Method for checking of currencies and getting result
+            </summary>
+            <param name="srcCurrency"></param>
+            <param name="destCurrency"></param>
+            <param name="amount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task_1.Services.RatesService.ActualizeRatesAsync">
+            <summary>
+            Remove from cache
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
